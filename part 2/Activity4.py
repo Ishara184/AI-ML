@@ -1,4 +1,7 @@
-age = int(input("Enter your age: "))
+year = int(input("Enter your year of birth: "))
+
+age = 2024 - year
+
 if age < 18 :
     print("The person is a Child")
 else :

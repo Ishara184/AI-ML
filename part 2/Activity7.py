@@ -1,11 +1,13 @@
 #function to calculate the factorial of a given number
 
-num = int(input("Enter a num: "))
-count = num
-ans = 1
+def fac (num):
 
-while count != 0:
-    ans = ans * count
-    count -= 1
+    ans = 1
 
-print("factorail of the number = ", ans)
+    while num != 0:
+        ans = ans * num
+        num -= 1
+    
+    return ans
+
+print("factorail of the number = ", fac(5))

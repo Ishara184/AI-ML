@@ -1,13 +1,8 @@
 # c) Create a program to input five marks of a student and display the grades. 
-
 #           • Mark > 75 – A 
-
 #           • Mark 65 to 75 – B 
-
 #           • Mark 55 to 64 – C 
-
 #           • Mark 45 to 54 – S 
-
 #           • Mark < 45 – F
 
 

@@ -1,27 +1,30 @@
-# b) Create a python program to input marks of 10 students and print the maximum mark, minimum mark and average mark of the students.
+# c) Create a program to input five marks of a student and display the grades. 
 
-mark = int(input("Enter the marks of the student: "))
-max = 0
-min = mark
-i = 1
-sum = 0
+#           • Mark > 75 – A 
 
-while i < 10:
-    
-    if mark > max:
-        max = mark
+#           • Mark 65 to 75 – B 
 
-    if mark < min:
-        min = mark
+#           • Mark 55 to 64 – C 
 
-    sum = sum + mark
+#           • Mark 45 to 54 – S 
+
+#           • Mark < 45 – F
+
+
+i = 0
+
+while i < 5:
+    mark = int(input("Enter student mark : "))
+
+    if mark >= 75:
+        print ("A")
+    elif mark >= 65:
+        print ("B")
+    elif mark >= 55:
+        print ("C")
+    elif mark >= 45:
+        print ("S")
+    else:
+        print ("F")
 
     i += 1
-    mark = int(input("Enter the marks of the student: "))
-    
-print ("Maximum marks = ", max)
-print ("Minimum marks = ", min)
-print ("Average marks = ", sum/10 )
-
-
-

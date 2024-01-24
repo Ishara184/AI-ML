@@ -1,7 +1,7 @@
 #module test
 
 def hello():
-    print("hello function")
+    print("hello everyone")
 
 def calc(no1, no2):
     add = no1 + no2

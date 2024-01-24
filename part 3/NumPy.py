@@ -1,5 +1,5 @@
 # Numpy is a fundermental package for scintific computing python
-# It iis a library that provides a mutidimensional array objects
+# It is a library that provides a mutidimensional array objects
 
 #import numpy
 import numpy as np
